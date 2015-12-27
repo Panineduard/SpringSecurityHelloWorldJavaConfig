@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringSecurityHelloWorldJavaConfig:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="secure-exam.war">
+      <element id="artifact" artifact-name="SpringSecurityHelloWorldJavaConfig:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring Security-3.2.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
